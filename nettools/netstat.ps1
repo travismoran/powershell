@@ -1,3 +1,9 @@
+#Usage 
+#.\netstat.ps1
+#This will create a directory (C:\NetstatReport) and then log output to a file as well as displaying the output.
+#If you do not want a file to be created, simply run it with NoFile. 
+#.\netstat.ps1 NoFile
+
 # Object to contain output
 
 $info = new-object system.text.stringbuilder
